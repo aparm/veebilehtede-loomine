@@ -1,0 +1,123 @@
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+
+
+div.jumbotron {
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/23/16/23/soap-dispenser-2337697_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+footer {
+    margin-top: 60px;
+    padding: 5em;
+}
+
+
+ .btn.btn-social-icon {
+     width: 50px;
+     height: 50px;
+     padding: 0
+ }
+
+ .sm>.btn {
+     margin-right: 0.5rem !important
+ }
+
+ .sm {
+     margin-top: 0.5rem !important
+ }
+
+
+ .btn-facebook {
+     background: #3b579d;
+     color: #ffffff
+ }
+
+ .btn-youtube {
+     background: #e52d27;
+     color: #ffffff
+ }
+
+ .btn-twitter {
+     background: #2caae1;
+     color: #ffffff
+ }
+
+ .btn-instagram {
+     background: #dc4a38;
+     color: #ffffff
+ }
+
+
+
+ .btn-facebook:hover,
+ .btn-facebook:focus {
+     background: #2d4278;
+     color: #ffffff
+ }
+
+ .btn-youtube:hover,
+ .btn-youtube:focus {
+     background: #c21d17;
+     color: #ffffff
+ }
+
+ .btn-twitter:hover,
+ .btn-twitter:focus {
+     background: #1b8dbf;
+     color: #ffffff
+ }
+
+ .btn-instagram:hover,
+ .btn-instagram:focus {
+     background: #bf3322;
+     color: #ffffff
+ }
+
+
+
+section.meist {
+    margin: 40px;
+    padding: 0 70px 0 70px;
+}
+
+
+.meist>list-group{
+    width: 70%;
+}
+
