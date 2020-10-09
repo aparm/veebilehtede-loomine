@@ -37,6 +37,7 @@ nav img {
 main {
     padding-top: 170px;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 
@@ -46,6 +47,7 @@ main {
 footer {
     padding: 40px 40px;
     background-color: #3b444b;
+    width: 100%;
 
     display: flex;
     flex-flow: row wrap;
@@ -70,7 +72,7 @@ footer ul li a {
 }
 
 div.footer-sm {
-    padding: 40px 100px 10px 100px;
+    padding: 40px 100px 10px 70px;
 }
 
 a.footer-sm {
