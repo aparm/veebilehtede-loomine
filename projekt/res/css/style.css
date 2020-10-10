@@ -258,6 +258,53 @@ main {
 
 
 
+/*LOGIN*/
+.login {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.login a {
+    color: black;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.login-button {
+    width: 98%;
+    background-color: #3b444b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.another-login {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.another-login button{
+    width: 180px;
+}
+
+
+
 /*FOOTER*/
 footer {
     padding: 20px 0px 20px 0px;
