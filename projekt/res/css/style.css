@@ -13,6 +13,21 @@ a {
 }
 
 
+.button {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
 
 /*HEADER*/
 header {
@@ -88,6 +103,55 @@ main {
     letter-spacing: 1px;
     color: black;
 }
+
+
+
+/*ERAKLIENT*/
+.eraklient-menu {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap; 
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+}
+
+.eraklient-item {
+    width: 320px;
+    height: 560px;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+    margin: 10px;
+
+    text-align: center;
+
+    background-color: #50c878;
+    border-radius: 15px;
+}
+
+.eraklient-item h2 {
+    padding-top: 40px;
+    font-size: 28px;
+}
+
+.eraklient-item p {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.vormista-leping {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
 
 
 
