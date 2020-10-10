@@ -151,6 +151,55 @@ main {
 
 
 
+/*TOOTMINE*/
+.tootmine-menu {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap; 
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+}
+
+.tootmine-item {
+    width: 320px;
+    height: 560px;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+    margin: 10px;
+
+    text-align: center;
+
+    background-color: #50c878;
+    border-radius: 15px;
+}
+
+.tootmine-item h2 {
+    padding-top: 40px;
+    font-size: 28px;
+}
+
+.tootmine-item img {
+    padding-top: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.tootmine-item p {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.kutsu-tehnik {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
 
 
 
