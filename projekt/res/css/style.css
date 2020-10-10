@@ -1,11 +1,16 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-size:100%;
+    border: 0;
+    
+    width: 100%;
 
     background-color: #edebe9;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 
@@ -37,16 +42,59 @@ nav img {
 main {
     padding-top: 170px;
     padding-bottom: 40px;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 
 
+/*MAIN - MENU*/
+.main-menu {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap; 
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 300px;
+    height: 300px;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+    margin: 10px;
+
+    text-align: center;
+
+    background-color: #50c878;
+    border-radius: 15px;
+}
+
+.menu-item img {
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.item-header {
+    padding-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+
+
 /*FOOTER*/
 footer {
-    padding: 40px 40px;
-    background-color: #3b444b;
+    padding: 20px 0px 20px 0px;
+    
     width: 100%;
 
     display: flex;
@@ -54,11 +102,16 @@ footer {
     justify-content: space-between;
 
     text-align: left;
+    background-color: #3b444b;
+}
+
+.footer-links {
+    padding-left: 70px;
 }
 
 footer ul li {
     display: block;
-    padding: 0 0 15px 60px;
+    padding: 5px 0 5px 0;
 }
 
 
@@ -68,11 +121,10 @@ footer ul li a {
     font-size: 18px;
     letter-spacing: 1px;
     color: #fff;
-    text-decoration: none;
 }
 
-div.footer-sm {
-    padding: 40px 100px 10px 70px;
+.footer-sm {
+    padding: 45px 70px 10px 70px;
 }
 
 a.footer-sm {
@@ -80,5 +132,5 @@ a.footer-sm {
 }
 
 footer img {
-    margin-right: 15px;
+    margin-left: 15px;
 }
