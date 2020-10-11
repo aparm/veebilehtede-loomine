@@ -1,54 +1,60 @@
-.work-menu {
+.about-work{
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     display: -webkit-flex;
     -webkit-flex-flow: row wrap; 
     display: -moz-flex;
     -moz-flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+
+    padding-bottom: 20px;
 }
 
-.work-item {
-    display: flex;
-    flex-flow: column wrap;
-    display: -webkit-flex;
-    -webkit-flex-flow: column wrap; 
-    display: -moz-flex;
-    -moz-flex-flow: column wrap;
-    flex-basis: 300px;
 
-    text-align: left;
-    padding: 30px;
+.work-list {
+    width: 30%;
+    width: 250px;
+    padding-top: 30px;
+    padding-left: 40px;
 }
 
-.work-item ul li {
-    text-decoration: none;
-    padding: 10px 5px;
+.about-work h1 {
     color: #47525E;
+    font-family: Lato;
+    font-size: 40px;
+    line-height: 50px;
 }
 
-.work-item h1 {
+.about-work h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     letter-spacing: 1px;
     color: #47525E;
+    text-align: center;
 }
 
-.work-button {
-    width: 100%;
-    padding-top: 30px;
+.work-list ul li {
+    font-size: 18px;
+    padding: 10px 5px;
+    color: #47525E;
 }
 
-@media (max-width: 1024px) {
-    .work-item{
-        text-align: center;
-    }
-    .work-item ul li {
-        text-align: left;
-    }
-    iframe {
-        width: 300px;
-        height:160px;
-        text-align: center;
-    }
+
+.buttons {
+    margin-top: 40px;
+}
+
+.buttons button{
+    width: 150px;
+    background-color: #3b444b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
